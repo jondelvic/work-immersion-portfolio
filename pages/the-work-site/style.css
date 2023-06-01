@@ -1,0 +1,82 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 35px;
+}
+
+.sub-title {
+    text-align: center;
+    font-weight: 600;
+}
+
+.company-profile-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.company-pictures-content {
+    margin-bottom: 15px;
+}
+
+.company-img-container {
+    width: 750px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.building-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: 0 0 2px black;
+}
+
+.caption {
+    font-size: 0.8em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.organizational-chart {
+    margin-bottom: 15px;
+}
+
+.org-chart-img-container {
+    width: 750px;
+    margin: auto;
+    object-fit: cover;
+}
+
+.table-contents-button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.table-contents-button a {
+    color: black;
+    transition: 0.15s;
+}
+
+.table-contents-button a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
