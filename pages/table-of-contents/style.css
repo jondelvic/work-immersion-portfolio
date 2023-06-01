@@ -36,7 +36,7 @@ li {
     margin-bottom: 20px;
 }
 
-.return-home-button {
+.return-homepage {
     position: fixed;
     left: 50%;
     bottom: 20px;
@@ -44,12 +44,12 @@ li {
     margin: 0 auto;
 }
 
-.return-home-button a {
+.return-homepage a {
     color: black;
     transition: 0.15s;
 }
 
-.return-home-button a:hover {
+.return-homepage a:hover {
     opacity: 0.5;
     text-decoration: underline;
 }
