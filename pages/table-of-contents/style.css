@@ -35,3 +35,18 @@ li {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.return-home-button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.return-home-button a {
+    color: black;
+    transition: 0.15s;
+}
+
+.return-home-button a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
