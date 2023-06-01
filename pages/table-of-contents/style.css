@@ -37,8 +37,11 @@ li {
 }
 
 .return-home-button {
-    text-align: center;
-    margin-top: 25px;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
 }
 
 .return-home-button a {
