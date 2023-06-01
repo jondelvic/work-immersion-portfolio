@@ -1,0 +1,25 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.table-contents-button a {
+    color: black;
+    transition: 0.15s;
+}
+
+.table-contents-button a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
