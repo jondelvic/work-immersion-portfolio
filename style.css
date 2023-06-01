@@ -14,6 +14,10 @@
     transform: translate(-50%, -50%);
 }
 
+h1 {
+    font-size: 3.5em;
+}
+
 .table-contents-button a {
     color: black;
     transition: 0.15s;
@@ -22,4 +26,17 @@
 .table-contents-button a:hover {
     opacity: 0.5;
     text-decoration: underline;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
 }
